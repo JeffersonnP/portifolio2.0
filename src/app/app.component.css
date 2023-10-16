@@ -1,0 +1,345 @@
+
+#back-fdn{
+  background-image: url(fundo-port.gif);
+  height: 265rem;
+  opacity: 1;
+  background-size: contain;
+
+
+  display: flex;
+
+
+
+
+
+
+}
+
+.btntool{
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #242424, #000000, #7703ad);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+}
+button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+
+}
+
+button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+  transform: translateX(7px);
+}
+
+
+mat-toolbar{
+
+
+  background-color: transparent;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding-left: 35%;
+  padding-bottom: 100px;
+
+  display: flex;
+  z-index: 2;
+  top: 0;
+}
+mat-card{
+display: flex;
+flex-grow: 1;
+flex-basis: 200;
+
+}
+
+
+.desac-info{
+  opacity: 0;
+  transition: opacity 2s linear;
+}
+.ativ-info{
+  opacity: 1;
+}
+
+
+
+
+#conteinerinfo{
+padding: 100px 50px 50px 50px;
+margin-top: 30rem;
+margin-left: 36%;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+mat-card:hover{
+  transform: scale(1.1);
+  transition: 0.5s linear;
+  box-shadow: 0 5px 15px rgba(255, 254, 254, 0.973);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#h1-nome {
+  color: rgb(255, 255, 255);
+  background-color: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#h1-pj{
+  color: rgb(255, 255, 255);
+  background-color: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  display: block;
+  position: absolute;
+  margin-top: 20rem;
+  padding: 100px;
+
+  margin-left: 3rem;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#txt-dev{
+  color: rgb(255, 255, 255);
+  border-right: 1px solid;
+
+  width: 25.5ch;
+  white-space: nowrap;
+
+  overflow: hidden;
+  animation: typing 4s steps(26),
+  blinking 0.9s infinite step-end alternate;
+
+  display: flex;
+
+
+  margin-left: 12%;
+  font-size: 28px;
+  font-family: monospace;
+}
+#para-card{
+  color: white;
+  padding: 20px 10px 10px 10px;
+  font-size: 18px;
+  text-align: justify;
+
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+@keyframes blinking{
+  50%{
+    border-color: transparent;
+  }
+}
+#lbl-nome{
+  color: rgb(255, 251, 251);
+  background-color: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+
+
+
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Card de teste */
+.example-card {
+  max-width: 400px;
+  height: 39rem;
+  background-color: black;
+}
+
+.example-header-image {
+  background-image: url('4de2c156-cc66-4482-bad0-ffbe64b3eaf1.jpg');
+  background-size: cover;
+  width: 5rem;
+  height: 5rem;
+
+}
+
+
+#card-proj-py{
+
+  margin-top: 65%;
+  margin-left: 10%;
+
+  display: flex;
+
+  position: absolute;
+}
+#card-proj{
+
+
+  margin-top: 65%;
+
+  margin-left: 37.5%;
+  display: flex;
+  position: absolute;
+}
+#card-proj-ins{
+
+
+
+  margin-top: 65%;
+  margin-left: 65%;
+
+  display: block;
+  position: absolute;
+}
+/* mat-card:hover{
+
+  transform: scale(0.9);
+  box-shadow: 0 5px 15px rgba(255, 238, 2, 0.6);
+  transition: 0.8s;
+} */
+
+
+
+
+
+
+@media(max-width: 775px){
+  #h1-nome{
+    font-size: 25px;
+  }
+
+  #para-card{
+  font-size: 15px;
+  padding: 0;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  }
+  mat-card:hover{
+    margin-top: -3rem;
+  }
+
+  #card-proj-py{
+    margin-top: 50rem;
+    margin-left: 2rem;
+    height: auto;
+
+
+
+
+
+
+  }
+  #card-proj{
+    margin-left: 2rem;
+    margin-top: 100rem;
+    height: auto;
+
+
+  }
+  #card-proj-ins{
+    margin-left: 2rem;
+    margin-top: 150rem;
+    height: auto;
+
+  }
+
+
+  .example-card {
+    max-width: 300px;
+    background-color: black;
+  }
+  mat-card-header{
+    z-index: 0;
+  }
+
+
+  #lbl-nome{
+    font-size: 25px;
+  }
+  mat-toolbar{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 8%;
+  }
+  button{
+    font-size: 10px;
+    padding: 0;
+  }
+  p{
+  font-size: 20px;
+  margin-left: 13%;
+  }
+ 
+  #conteinerinfo{
+    margin-top: 50%;
+    margin-left: 2rem;
+  }
+  #h1-pj{
+    margin-left: 5rem;
+  }
+  .cube-loader{
+    margin-left: 40%;
+  }
+  #txt-dev{
+    margin-left: 0rem;
+    font-size: 140%;
+  }
+}
+
+.btncont{
+  margin-top: 150rem;
+  margin-left: 10%;
+
+  display: flex;
+
+
+
+}
+

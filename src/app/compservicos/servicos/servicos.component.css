@@ -1,0 +1,164 @@
+.card {
+  width: 70rem;
+  height: 20rem;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 200rem;
+  margin-left: -75rem;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 2s linear;
+
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #a607ac 50%,#00DDEB);
+}
+.card-on{
+  opacity: 1;
+}
+
+
+h1{
+  margin-left: 45%;
+  color: white;
+  font-family:cursive;
+  font-size: 2rem;
+}
+
+.card__content {
+  background: rgb(5, 6, 45);
+  border-radius: 17px;
+  padding-right: 2rem;
+  padding-left: 1rem;
+
+  width: 69rem;
+  display: flex;
+  height: 20rem;
+}
+
+.btnser{
+  width: 15rem;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 200;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction:column;
+  overflow: hidden;
+  margin-top: 1rem;
+  word-spacing: 2px;
+  margin-left: 1rem;
+
+
+
+  background-color: black;
+
+  height: 13rem;
+  font-size: 8rem;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+
+}
+
+.btnser:hover{
+  border-color: rgb(235, 69, 27);
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-hab {
+  opacity: 0;
+  width: 70rem;
+  height: 20rem;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 18rem;
+  margin-left: -75rem;
+  overflow: hidden;
+/*   opacity: 1;
+  transition: opacity 2s linear; */
+
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #a607ac 50%,#00DDEB);
+  transition: opacity 1s linear;
+}
+
+
+.card-hab-on{
+  opacity: 1;
+
+}
+
+
+.card-on{
+  opacity: 1;
+}
+
+
+.card__content-hab {
+  background: rgb(5, 6, 45);
+  border-radius: 17px;
+  padding-right: 2rem;
+  padding-left: 1rem;
+
+
+
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  height: 18rem;
+}
+
+
+.btnser{
+  width: 15rem;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 200;
+
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction:column;
+
+  overflow: hidden;
+  margin-top: 1rem;
+  word-spacing: 2px;
+  margin-left: 1rem;
+
+
+
+  background-color: black;
+
+  height: 13rem;
+  font-size: 8rem;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+
+}
+
+.btnser:hover{
+  border-color: rgb(235, 69, 27);
+
+
+
+}
+
+
